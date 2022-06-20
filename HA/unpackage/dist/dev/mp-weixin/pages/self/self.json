@@ -1,0 +1,6 @@
+{
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "image-cropper": "/components/ling-imgcropper/ling-imgcropper"
+  }
+}

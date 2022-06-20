@@ -1,0 +1,1 @@
+<view><view class="submit"><view class="chat"><textarea class="text" auto-height="true" data-event-opts="{{[['input',[['__set_model',['','msg','$event',[]]],['inputs',['$event']]]]]}}" value="{{msg}}" bindinput="__e"></textarea><view class="emoji"><image src="../../static/icon_1sjrt66hk8e/a-bianzu53.png"></image></view></view></view></view>

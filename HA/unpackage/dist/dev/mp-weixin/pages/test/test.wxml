@@ -1,0 +1,1 @@
+<view><view data-event-opts="{{[['tap',[['upload',['$event']]]]]}}" class="upload" bindtap="__e">pic</view><image src="{{img}}"></image><button data-event-opts="{{[['tap',[['testFun',['$event']]]]]}}" bindtap="__e">test</button></view>

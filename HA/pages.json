@@ -1,0 +1,126 @@
+{
+	
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/loginin/loginin",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "哈"
+				
+		    }
+		    
+		}
+		,{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "哈",
+				"enablePullDownRefresh": true
+				//"backgroundColor":"#494949"
+				
+			}
+		}
+        ,{
+            "path" : "pages/self/self",
+            "style" :                                                                                    
+            {
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/hamatch/hamatch",
+            "style" :                                                                                    
+            {
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/friends/friends",
+            "style" :                                                                                    
+            {
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/chat/chat",
+            "style" :                                                                                    
+            {
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/user",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/loginup/loginup",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/test/test",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/choose/choose",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "哈",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#494949"
+	},
+	"tabBar":{
+		"selectedColor":"#FF9933",
+		"backgroundColor": "#00aac1",
+		"color":"#FFFFFF",
+		
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"text":"哈社区",
+				"iconPath":"static/icon_1sjrt66hk8e/a-bianzu45.png",
+				"selectedIconPath":"static/icon_1sjrt66hk8e/a-bianzu45.png"
+				
+			},
+			{
+				"pagePath":"pages/hamatch/hamatch",
+				"text":"开哈",
+				"iconPath":"static/icon_1sjrt66hk8e/a-bianzu5.png",
+				"selectedIconPath":"static/icon_1sjrt66hk8e/a-bianzu5.png"
+				
+			},
+			{
+				"pagePath":"pages/self/self",
+				"text":"哈星人",
+				"iconPath":"static/icon_1sjrt66hk8e/a-bianzu15.png",
+				"selectedIconPath":"static/icon_1sjrt66hk8e/a-bianzu15.png"
+			}
+		]
+	}
+}

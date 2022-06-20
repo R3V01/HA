@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/loginin/loginin",
+    "pages/index/index",
+    "pages/self/self",
+    "pages/hamatch/hamatch",
+    "pages/friends/friends",
+    "pages/chat/chat",
+    "pages/user/user",
+    "pages/loginup/loginup",
+    "pages/test/test",
+    "pages/choose/choose"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "哈",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#494949"
+  },
+  "tabBar": {
+    "selectedColor": "#FF9933",
+    "backgroundColor": "#00aac1",
+    "color": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "哈社区",
+        "iconPath": "static/icon_1sjrt66hk8e/a-bianzu45.png",
+        "selectedIconPath": "static/icon_1sjrt66hk8e/a-bianzu45.png"
+      },
+      {
+        "pagePath": "pages/hamatch/hamatch",
+        "text": "开哈",
+        "iconPath": "static/icon_1sjrt66hk8e/a-bianzu5.png",
+        "selectedIconPath": "static/icon_1sjrt66hk8e/a-bianzu5.png"
+      },
+      {
+        "pagePath": "pages/self/self",
+        "text": "哈星人",
+        "iconPath": "static/icon_1sjrt66hk8e/a-bianzu15.png",
+        "selectedIconPath": "static/icon_1sjrt66hk8e/a-bianzu15.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
