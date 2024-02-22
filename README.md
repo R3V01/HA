@@ -1,6 +1,7 @@
 # HA
 一款社交娱乐的小程序（喝酒，剧本，密室），可聊天交友。
-Uni-app+node.js+MongoDB搭建实现本项目。
+vue+node.js+MongoDB搭建实现本项目。
+使用HBuilder编写的uniapp
 
 **/功能模块
 该小程序需要满足用户聊天、分享动态、匹配等需求。
